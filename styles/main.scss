@@ -1,0 +1,18 @@
+@import 'var', 'mixins';
+
+.container{
+    height: 100vh;
+    padding:  $custompadding;
+    @include imgflex;
+
+    img{
+        border: $customborder;
+        border-radius: $customborder;
+        @include customfilter(50%);
+        @include customimg;
+
+        &:hover{
+            @include customfilter(120%);  
+        }
+    }
+}

@@ -1,0 +1,2 @@
+$customimgwidth: calc(100% / 3);
+        width: $customimgwidth;

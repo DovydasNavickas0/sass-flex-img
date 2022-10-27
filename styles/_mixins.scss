@@ -1,0 +1,19 @@
+@mixin customfilter($pr) {
+    filter: brightness($pr); 
+}
+
+@mixin imgflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 30px;
+    margin: 10px;
+}
+
+@mixin customimg {
+    height: 50%;
+    width: calc(95% / 3);
+    object-fit: cover;
+}
